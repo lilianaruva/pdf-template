@@ -1,9 +1,10 @@
 import "./styles.css";
-import PDFViewer from "./components/PDFViewer";
+import PDFtemplate from "./components/PDFtemplate";
+import Table from "./components/Table";
 export default function App() {
   return (
-    <div className="App">
-      <PDFViewer />
+    <div>
+      <PDFtemplate></PDFtemplate>
     </div>
   );
 }
