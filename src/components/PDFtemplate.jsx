@@ -19,6 +19,8 @@ const styles = StyleSheet.create({
     display: "flex",
     fontSize: "9.5px",
     fontFamily: "Arial",
+    width: "711px",
+    height: "450.9px",
   },
   firstColumn: {
     display: "flex",
@@ -29,7 +31,7 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "row",
     width: "325px",
-    minHeight: "55px",
+    minHeight: "56px",
   },
   firstColumnDivider: {
     width: "50%",
@@ -53,14 +55,14 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     border: "1px solid black",
     paddingLeft: "5px",
-    minHeight: "31px",
+    minHeight: "34px",
   },
   infoRow: {
     display: "flex",
     flexDirection: "column",
     border: "1px solid black",
     paddingLeft: "5px",
-    height: "100px",
+    height: "138.3px",
   },
 });
 
@@ -120,47 +122,50 @@ const PdfForm = () => {
                 <Text>$4500</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
+                <Text>PAYEE’S TIN</Text>
                 <Text>$4500</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
+                <Text>
+                  1a Gross amount of payment card/third party network
+                  transactions
+                </Text>
                 <Text>$4500</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
+                <Text>1b Card Not Present transactions </Text>
                 <Text>$4500</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
+                <Text>3 Number of payment transactions</Text>
                 <Text>$4500</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
+                <Text>5a January</Text>
                 <Text>$4500</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
+                <Text>5c March</Text>
                 <Text>$4500</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
+                <Text>5e May</Text>
                 <Text>$4500</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
+                <Text>5g July</Text>
                 <Text>$4500</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
+                <Text>5i September</Text>
                 <Text>$4500</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
+                <Text>5k November</Text>
                 <Text>$4500</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
+                <Text>6 State </Text>
                 <Text>$4500</Text>
               </View>
             </View>
