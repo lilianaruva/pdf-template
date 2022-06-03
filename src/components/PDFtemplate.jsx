@@ -64,6 +64,46 @@ const styles = StyleSheet.create({
     paddingLeft: "5px",
     height: "138.3px",
   },
+  formRow: {
+    height: "85px",
+    border: "1px solid black",
+    paddingLeft: "5px",
+    display: "flex",
+    flexDirection: "column",
+    width: "93px",
+    alignContent: "space-between",
+  },
+  yearRow: {
+    height: "34px",
+    border: "1px solid black",
+    paddingLeft: "5px",
+    display: "flex",
+    flexDirection: "column",
+    width: "93px",
+    alignItems: "center",
+  },
+  containerNumberForm: {
+    margin: "12px 0 10px 0",
+  },
+  numberForm: {
+    fontSize: "20px",
+    fontWeight: "bold",
+  },
+  dolarText: {
+    fontWeight: "bold",
+    fontSize: "12px",
+    marginTop: "2px",
+  },
+  yearText: {
+    marginTop: "2px",
+    fontSize: "12px",
+  },
+  inputText: {
+    color: "darkblue",
+  },
+  divContainer: {
+    marginTop: "2px",
+  },
 });
 
 const PdfForm = () => {
@@ -119,104 +159,149 @@ const PdfForm = () => {
             <View style={styles.secondColumn}>
               <View style={styles.rowl}>
                 <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
+                <Text>...</Text>
               </View>
               <View style={styles.rowl}>
                 <Text>PAYEE’S TIN</Text>
-                <Text>$4500</Text>
+                <Text>...</Text>
               </View>
               <View style={styles.rowl}>
                 <Text>
                   1a Gross amount of payment card/third party network
                   transactions
                 </Text>
-                <Text>$4500</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
                 <Text>1b Card Not Present transactions </Text>
-                <Text>$4500</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
                 <Text>3 Number of payment transactions</Text>
-                <Text>$4500</Text>
+                <Text>...</Text>
               </View>
               <View style={styles.rowl}>
                 <Text>5a January</Text>
-                <Text>$4500</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5c March</Text>
-                <Text>$4500</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5e May</Text>
-                <Text>$4500</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5g July</Text>
-                <Text>$4500</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5i September</Text>
-                <Text>$4500</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5k November</Text>
-                <Text>$4500</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
                 <Text>6 State </Text>
-                <Text>$4500</Text>
+                <Text>...</Text>
               </View>
             </View>
             <View style={styles.secondColumn}>
-              <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
+              <View style={styles.formRow}>
+                <Text>OMB No. 1545-2205</Text>
+                <View style={styles.containerNumberForm}>
+                  <Text>Form</Text>
+                  <Text style={styles.numberForm}>1099-K</Text>
+                </View>
+                <Text>(Rev. January 2022)</Text>
+              </View>
+              <View style={styles.yearRow}>
+                <Text>For calendar year</Text>
+                <Text style={styles.yearText}>2022</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
+                <Text>2 Merchant category code</Text>
+                <Text>...</Text>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
+                <Text>4 Federal income tax withheld</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
+                <Text>5b February</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
+                <Text>5d April</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
+                <Text>5f June</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
+                <Text>5h August</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
+                <Text>5j October</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
+                <Text>5l December</Text>
+                <View style={styles.divContainer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
               <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
-              </View>
-              <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
-              </View>
-              <View style={styles.rowl}>
-                <Text>FILER'S TIN</Text>
-                <Text>$4500</Text>
+                <Text>7 State identification no. </Text>
+                <Text>...</Text>
               </View>
             </View>
           </View>
