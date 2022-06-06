@@ -16,10 +16,11 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     flexWrap: "wrap",
     border: "1px solid black",
+    borderStyle: "solid none solid solid",
     display: "flex",
     fontSize: "9.5px",
     fontFamily: "Arial",
-    width: "711px",
+    width: "735px",
     height: "450.9px",
   },
   firstColumn: {
@@ -48,14 +49,14 @@ const styles = StyleSheet.create({
   secondColumn: {
     display: "flex",
     flexDirection: "column",
-    width: "124.8px",
+    width: "133px",
   },
   rowl: {
     display: "flex",
     flexDirection: "column",
     border: "1px solid black",
     paddingLeft: "5px",
-    minHeight: "34px",
+    minHeight: "33px",
   },
   infoRow: {
     display: "flex",
@@ -103,6 +104,45 @@ const styles = StyleSheet.create({
   },
   divContainer: {
     marginTop: "2px",
+  },
+  containerTitleForm: {
+    height: "123px",
+    display: "flex",
+    textAlign: "right",
+    alignItems: "center",
+    alignContent: "center",
+  },
+  titleForm: {
+    fontSize: "17px",
+    fontWeight: "bold",
+  },
+  divPointer: {
+    border: "0.5px solid dashed",
+    borderStyle: "none none dashed none",
+  },
+  descriptionTitle: {
+    fontSize: "14px",
+    fontWeight: "bold",
+    textAlign: "right",
+    marginTop: "5px",
+  },
+  descriptionResume: {
+    display: "flex",
+    alignContent: "right",
+    textAlign: "right",
+    marginTop: "20px",
+    width: "93px",
+  },
+  containerDescriptionForm: {
+    display: "flex",
+    flexDirection: "column",
+    textAlign: "right",
+    alignItems: "flex-end",
+    paddingRight: "3px",
+    height: "287px",
+    border: "1px solid black",
+    borderStyle: "solid none solid solid",
+    //alignContent: "center",
   },
 });
 
@@ -229,8 +269,13 @@ const PdfForm = () => {
                 </View>
               </View>
               <View style={styles.rowl}>
-                <Text>6 State </Text>
-                <Text>...</Text>
+                <Text>6 State</Text>
+                <View style={styles.divPointer}>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
+                <View>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
             </View>
             <View style={styles.secondColumn}>
@@ -301,7 +346,43 @@ const PdfForm = () => {
               </View>
               <View style={styles.rowl}>
                 <Text>7 State identification no. </Text>
-                <Text>...</Text>
+                <View style={styles.divPointer}>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
+                <View>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
+              </View>
+            </View>
+            <View style={styles.secondColumn}>
+              <View style={styles.containerTitleForm}>
+                <Text style={styles.titleForm}>
+                  Payment Card and Third Party Network Transactions
+                </Text>
+              </View>
+              <View>
+                <View style={styles.containerDescriptionForm}>
+                  <Text style={styles.descriptionTitle}>Copy B</Text>
+                  <Text style={styles.descriptionTitle}>For Payee</Text>
+                  <Text style={styles.descriptionResume}>
+                    This is important tax information and is being furnished to
+                    the IRS. If you are required to file a return, a negligence
+                    penalty or other sanction may be imposed on you if taxable
+                    income results from this transaction and the IRS determines
+                    that it has not been reported.
+                  </Text>
+                </View>
+              </View>
+              <View style={styles.rowl}>
+                <Text>8 State income tax withheld</Text>
+                <View style={styles.divPointer}>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
+                <View>
+                  <Text style={styles.dolarText}>$</Text>
+                  <Text style={styles.inputText}>...</Text>
+                </View>
               </View>
             </View>
           </View>
