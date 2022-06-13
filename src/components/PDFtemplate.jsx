@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     border: "1px solid black",
     paddingLeft: "5px",
-    minHeight: "33px",
+    minHeight: "33.22px",
   },
   infoRow: {
     display: "flex",
@@ -101,6 +101,7 @@ const styles = StyleSheet.create({
   },
   inputText: {
     color: "darkblue",
+    fontSize: "12px",
   },
   divContainer: {
     marginTop: "2px",
@@ -117,7 +118,8 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   divPointer: {
-    border: "0.5px solid dashed",
+    border: "1px dashed black",
+    borderWidth: "thin",
     borderStyle: "none none dashed none",
   },
   descriptionTitle: {
@@ -139,7 +141,7 @@ const styles = StyleSheet.create({
     textAlign: "right",
     alignItems: "flex-end",
     paddingRight: "3px",
-    height: "287px",
+    height: "284.5px",
     border: "1px solid black",
     borderStyle: "solid none solid solid",
     //alignContent: "center",
@@ -149,7 +151,6 @@ const styles = StyleSheet.create({
 const PdfForm = () => {
   return (
     <>
-      <h1>PDFForm</h1>
       <Document>
         <Page size="letter" style={styles.page}>
           <View style={styles.tableContainer}>
@@ -159,7 +160,7 @@ const PdfForm = () => {
                   FILER’S name, street address, city or town, state or province,
                   country, ZIP or foreign postal code, and telephone no.
                 </Text>
-                <Text>...</Text>
+                <Text style={styles.inputText}>test</Text>
               </View>
               <View style={styles.firstColumnDividerContainer}>
                 <View style={styles.firstColumnDivider}>
@@ -180,14 +181,14 @@ const PdfForm = () => {
               </View>
               <View style={styles.infoRow}>
                 <Text>PAYEE’S name</Text>
-                <Text>...</Text>
+                <Text style={styles.inputText}>test</Text>
                 <Text>Street address (including apt. no.)</Text>
-                <Text>...</Text>
+                <Text style={styles.inputText}>test</Text>
                 <Text>
                   City or town, state or province, country, and ZIP or foreign
                   postal code
                 </Text>
-                <Text>...</Text>
+                <Text style={styles.inputText}>test</Text>
               </View>
               <View style={styles.firstColumnLastRow}>
                 <Text>PSE’S name and telephone number</Text>
@@ -199,11 +200,11 @@ const PdfForm = () => {
             <View style={styles.secondColumn}>
               <View style={styles.rowl}>
                 <Text>FILER'S TIN</Text>
-                <Text>...</Text>
+                <Text style={styles.inputText}>test</Text>
               </View>
               <View style={styles.rowl}>
                 <Text>PAYEE’S TIN</Text>
-                <Text>...</Text>
+                <Text style={styles.inputText}>test</Text>
               </View>
               <View style={styles.rowl}>
                 <Text>
@@ -212,69 +213,69 @@ const PdfForm = () => {
                 </Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>1b Card Not Present transactions </Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>3 Number of payment transactions</Text>
-                <Text>...</Text>
+                <Text style={styles.inputText}>test</Text>
               </View>
               <View style={styles.rowl}>
                 <Text>5a January</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5c March</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5e May</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5g July</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5i September</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5k November</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>6 State</Text>
                 <View style={styles.divPointer}>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
                 <View>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
             </View>
@@ -293,64 +294,64 @@ const PdfForm = () => {
               </View>
               <View style={styles.rowl}>
                 <Text>2 Merchant category code</Text>
-                <Text>...</Text>
+                <Text style={styles.inputText}>test</Text>
               </View>
               <View style={styles.rowl}>
                 <Text>4 Federal income tax withheld</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5b February</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5d April</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5f June</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5h August</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5j October</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>5l December</Text>
                 <View style={styles.divContainer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
               <View style={styles.rowl}>
                 <Text>7 State identification no. </Text>
                 <View style={styles.divPointer}>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>dasd.</Text>
                 </View>
                 <View>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>sadad</Text>
                 </View>
               </View>
             </View>
@@ -377,11 +378,11 @@ const PdfForm = () => {
                 <Text>8 State income tax withheld</Text>
                 <View style={styles.divPointer}>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
                 <View>
                   <Text style={styles.dolarText}>$</Text>
-                  <Text style={styles.inputText}>...</Text>
+                  <Text style={styles.inputText}>test</Text>
                 </View>
               </View>
             </View>
