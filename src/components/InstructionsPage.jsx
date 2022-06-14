@@ -10,7 +10,7 @@ import {
 import TableRow from "./TableRow";
 import source from "../fonts/ARIAL.woff";
 
-const PdfForm = () => {
+const InstructionsPage = () => {
   const registerFont = () => {
     // Register font
     Font.register({
@@ -43,74 +43,76 @@ const PdfForm = () => {
       borderStyle: "solid none solid solid",
       display: "flex",
       fontSize: "7px",
-      width: "501.48px",
-      height: "433.29px",
+      width: "18.57cm",
+      height: "11.42cm",
     },
     firstColumn: {
       display: "flex",
       flexDirection: "column",
-      width: "235px",
+      width: "8.66cm",
     },
     firstColumnDividerContainer: {
       display: "flex",
       flexDirection: "row",
-      width: "235px",
-      minHeight: "56px",
+      width: "8.66cm",
+      minHeight: "1.47cm",
     },
     firstColumnDivider: {
       width: "50%",
       border: "1px solid black",
-      paddingLeft: "5px",
+      paddingLeft: "0.20cm",
     },
     firstColumnLastRow: {
       display: "flex",
       flexDirection: "column",
       border: "1px solid black",
-      paddingLeft: "5px",
+      paddingLeft: "0.20cm",
       minHeight: "45px",
     },
     secondColumn: {
       display: "flex",
       flexDirection: "column",
-      width: "100px",
+      width: "3.53cm",
     },
     rowl: {
       display: "flex",
       flexDirection: "column",
       border: "1px solid black",
-      paddingLeft: "5px",
-      minHeight: "33.22px",
+      paddingLeft: "0.20cm",
+      minHeight: ".80cm",
     },
     infoRow: {
       display: "flex",
       flexDirection: "column",
       border: "1px solid black",
-      paddingLeft: "5px",
-      height: "138.3px",
+      paddingLeft: "0.20cm",
+      height: "3.58cm",
     },
     formRow: {
-      height: "85px",
+      height: "2.13cm",
       border: "1px solid black",
-      paddingLeft: "5px",
+      paddingLeft: "0.20cm",
       display: "flex",
       flexDirection: "column",
-      width: "93px",
+      width: "2.54cm",
       alignContent: "space-between",
     },
     yearRow: {
-      height: "34px",
+      height: "0.84cm",
       border: "1px solid black",
-      paddingLeft: "5px",
+      paddingLeft: "0.20cm",
       display: "flex",
       flexDirection: "column",
-      width: "93px",
+      width: "2.54cm",
       alignItems: "center",
     },
     containerNumberForm: {
+      display: "flex",
+      flexDirection: "row",
       margin: "12px 0 10px 0",
     },
     numberForm: {
-      fontSize: "20px",
+      fontSize: "12px",
       fontWeight: "bold",
     },
     dolarText: {
@@ -119,32 +121,35 @@ const PdfForm = () => {
       marginTop: "2px",
     },
     yearText: {
-      marginTop: "2px",
       fontSize: "10px",
     },
     inputText: {
       color: "darkblue",
-      fontSize: "8px",
+      fontSize: "10px",
     },
     divContainer: {
       display: "flex",
+      flexDirection: "row",
       marginTop: "2px",
     },
     containerTitleForm: {
-      height: "123px",
+      height: "2.98cm",
+      width: "3.84cm",
       display: "flex",
       textAlign: "right",
       alignItems: "center",
       alignContent: "center",
     },
     titleForm: {
-      fontSize: "17px",
+      fontSize: "12px",
       fontWeight: "bold",
     },
     divPointer: {
       border: "1px dashed black",
       borderWidth: "thin",
       borderStyle: "none none dashed none",
+      display: "flex",
+      flexDirection: "row",
     },
     descriptionTitle: {
       fontSize: "14px",
@@ -156,8 +161,8 @@ const PdfForm = () => {
       display: "flex",
       alignContent: "right",
       textAlign: "right",
-      marginTop: "20px",
-      width: "93px",
+      marginTop: "12px",
+      width: "2.33cm",
     },
     containerDescriptionForm: {
       display: "flex",
@@ -165,16 +170,28 @@ const PdfForm = () => {
       textAlign: "right",
       alignItems: "flex-end",
       paddingRight: "3px",
-      height: "284.5px",
+      height: "7.19cm",
       border: "1px solid black",
       borderStyle: "solid none solid solid",
       //alignContent: "center",
+    },
+    lastColumn: {
+      width: "2.77cm",
+      display: "flex",
+      flexDirection: "column",
+    },
+    tallRow: {
+      height: "1.05cm",
+      display: "flex",
+      flexDirection: "column",
+      border: "1px solid black",
+      paddingLeft: "0.20cm",
     },
   });
 
   return (
     <>
-      <Page size="A4" style={styles.page}>
+      <Page size="Letter" style={styles.page}>
         <View style={styles.tableContainer}>
           <View style={styles.firstColumn}>
             <View style={styles.infoRow}>
@@ -313,11 +330,11 @@ const PdfForm = () => {
               <Text>For calendar year</Text>
               <Text style={styles.yearText}>2022</Text>
             </View>
-            <View style={styles.rowl}>
+            <View style={styles.tallRow}>
               <Text>2 Merchant category code</Text>
               <Text style={styles.inputText}>test</Text>
             </View>
-            <View style={styles.rowl}>
+            <View style={styles.tallRow}>
               <Text>4 Federal income tax withheld</Text>
               <View style={styles.divContainer}>
                 <Text style={styles.dolarText}>$</Text>
@@ -376,7 +393,7 @@ const PdfForm = () => {
               </View>
             </View>
           </View>
-          <View style={styles.secondColumn}>
+          <View style={styles.lastColumn}>
             <View style={styles.containerTitleForm}>
               <Text style={styles.titleForm}>
                 Payment Card and Third Party Network Transactions
@@ -401,7 +418,7 @@ const PdfForm = () => {
                 <Text style={styles.dolarText}>$</Text>
                 <Text style={styles.inputText}>test</Text>
               </View>
-              <View>
+              <View style={styles.divContainer}>
                 <Text style={styles.dolarText}>$</Text>
                 <Text style={styles.inputText}>test</Text>
               </View>
@@ -413,4 +430,4 @@ const PdfForm = () => {
   );
 };
 
-export default PdfForm;
+export default InstructionsPage;
