@@ -30,6 +30,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             colSpan="2"
             rowSpan="5"
@@ -59,6 +60,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -84,6 +86,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             rowSpan="3"
           >
@@ -166,6 +169,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -193,6 +197,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             rowSpan="2"
           >
@@ -236,6 +241,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -258,7 +264,7 @@ const Page3 = () => {
                 textAlign: "left",
               }}
             >
-              20 <u> &nbsp, </u>
+              2022
             </p>
           </td>
         </tr>
@@ -274,6 +280,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             rowSpan="2"
           >
@@ -313,6 +320,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             rowSpan="2"
           >
@@ -337,6 +345,7 @@ const Page3 = () => {
               borderLeftWidth: "1pt",
               borderBottomStyle: "solid",
               borderBottomWidth: "1pt",
+              verticalAlign: "top",
             }}
             rowSpan="10"
           >
@@ -375,6 +384,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             rowSpan="2"
           >
@@ -424,6 +434,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             rowSpan="2"
           >
@@ -477,6 +488,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -503,6 +515,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -544,6 +557,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             colSpan="2"
             rowSpan="5"
@@ -598,6 +612,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -635,6 +650,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -674,6 +690,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -711,6 +728,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -750,6 +768,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -787,6 +806,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -826,6 +846,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -863,6 +884,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -902,6 +924,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             rowSpan="2"
           >
@@ -940,6 +963,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             rowSpan="2"
           >
@@ -980,6 +1004,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             colSpan="2"
             rowSpan="2"
@@ -1009,6 +1034,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -1046,6 +1072,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -1085,6 +1112,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
             colSpan="2"
             rowSpan="2"
@@ -1112,6 +1140,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -1137,6 +1166,7 @@ const Page3 = () => {
               borderBottomWidth: "1pt",
               borderRightStyle: "solid",
               borderRightWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -1160,6 +1190,7 @@ const Page3 = () => {
               borderLeftWidth: "1pt",
               borderBottomStyle: "dashed",
               borderBottomWidth: "1pt",
+              verticalAlign: "top",
             }}
           >
             <p
@@ -1247,46 +1278,48 @@ const Page3 = () => {
           </td>
         </tr>
       </table>
-      <p
-        className="s30"
-        style={{
-          paddingLeft: "6pt",
-          textIndent: "0pt",
-          lineHeight: "12pt",
-          textAlign: "left",
-        }}
-      >
-        Form <span className="s31"> 1099-K </span>
-        <a
-          href="http://www.irs.gov/Form1099K"
+      <div className="bottomPdf">
+        <p
+          className="s30"
           style={{
-            color: "black",
-            fontFamily: "Arial, sans-serif",
-            fontStyle: "normal",
-            fontWeight: "normal",
-            textDecoration: "none",
-            fontSize: "7pt",
-            verticalAlign: "1pt",
+            paddingLeft: "6pt",
+            textIndent: "0pt",
+            lineHeight: "12pt",
+            textAlign: "left",
           }}
-          target="_blank"
         >
-          (Rev. 1-2022)
-        </a>
+          Form <span className="s31"> 1099-K </span>
+          <a
+            href="http://www.irs.gov/Form1099K"
+            style={{
+              color: "black",
+              fontFamily: "Arial, sans-serif",
+              fontStyle: "normal",
+              fontWeight: "normal",
+              textDecoration: "none",
+              fontSize: "7pt",
+              verticalAlign: "1pt",
+            }}
+            target="_blank"
+          >
+            (Rev. 1-2022)
+          </a>
+        </p>
         <a href="http://www.irs.gov/Form1099K" target="_blank">
           www.irs.gov/Form1099K
         </a>
-      </p>
-      <p
-        className="s32"
-        style={{
-          paddingTop: "3pt",
-          paddingLeft: "6pt",
-          textIndent: "0pt",
-          textAlign: "left",
-        }}
-      >
-        Department of the Treasury - Internal Revenue Service
-      </p>
+        <p
+          className="s32"
+          style={{
+            paddingTop: "3pt",
+            paddingLeft: "6pt",
+            textIndent: "0pt",
+            textAlign: "left",
+          }}
+        >
+          Department of the Treasury - Internal Revenue Service
+        </p>
+      </div>
     </>
   );
 };

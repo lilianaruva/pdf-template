@@ -10,6 +10,14 @@
     padding-left: 58.582677165px;
     width: 816px;
     height: 1056px;
+    border: 1px solid red;
+
+}
+
+.bottomPdf {
+    display: flex;
+    justify-content: space-between;
+    width: 770px;
 }
 
 /*
