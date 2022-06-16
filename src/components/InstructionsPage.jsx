@@ -39,8 +39,6 @@ const InstructionsPage = () => {
     tableContainer: {
       flexDirection: "row",
       flexWrap: "wrap",
-      border: "1px solid black",
-      borderStyle: "solid none solid solid",
       display: "flex",
       fontSize: "7px",
       width: "18.57cm",
@@ -60,13 +58,13 @@ const InstructionsPage = () => {
     firstColumnDivider: {
       width: "50%",
       border: "1px solid black",
-      paddingLeft: "0.20cm",
+      paddingLeft: "0.10cm",
     },
     firstColumnLastRow: {
       display: "flex",
       flexDirection: "column",
       border: "1px solid black",
-      paddingLeft: "0.20cm",
+      paddingLeft: "0.10cm",
       minHeight: "45px",
     },
     secondColumn: {
@@ -78,20 +76,20 @@ const InstructionsPage = () => {
       display: "flex",
       flexDirection: "column",
       border: "1px solid black",
-      paddingLeft: "0.20cm",
-      minHeight: ".80cm",
+      paddingLeft: "0.10cm",
+      minHeight: ".84cm",
     },
     infoRow: {
       display: "flex",
       flexDirection: "column",
       border: "1px solid black",
-      paddingLeft: "0.20cm",
+      paddingLeft: "0.10cm",
       height: "3.58cm",
     },
     formRow: {
       height: "2.13cm",
       border: "1px solid black",
-      paddingLeft: "0.20cm",
+      paddingLeft: "0.10cm",
       display: "flex",
       flexDirection: "column",
       width: "2.54cm",
@@ -100,7 +98,7 @@ const InstructionsPage = () => {
     yearRow: {
       height: "0.84cm",
       border: "1px solid black",
-      paddingLeft: "0.20cm",
+      paddingLeft: "0.10cm",
       display: "flex",
       flexDirection: "column",
       width: "2.54cm",
@@ -185,7 +183,7 @@ const InstructionsPage = () => {
       display: "flex",
       flexDirection: "column",
       border: "1px solid black",
-      paddingLeft: "0.20cm",
+      paddingLeft: "0.10cm",
     },
     lastsColumns: {
       display: "flex",
@@ -198,6 +196,24 @@ const InstructionsPage = () => {
     simpleColumns: {
       display: "flex",
       flexDirection: "row",
+    },
+    grossAmount: {
+      height: "1.20cm",
+      display: "flex",
+      flexDirection: "column",
+      border: "1px solid black",
+      paddingLeft: "0.10cm",
+    },
+    input: {
+      display: "flex",
+      flexDirection: "row",
+    },
+    number: {
+      fontWeight: "bold",
+    },
+    text: {
+      marginLeft: ".05cm",
+      width: "2.97cm",
     },
   });
 
@@ -257,10 +273,18 @@ const InstructionsPage = () => {
               <Text>PAYEE’S TIN</Text>
               <Text style={styles.inputText}>test</Text>
             </View>
-            <View style={styles.rowl}>
-              <Text>
-                1a Gross amount of payment card/third party network transactions
-              </Text>
+            <View style={styles.grossAmount}>
+              <View style={styles.input}>
+                <View style={styles.number}>
+                  <Text>1a</Text>
+                </View>
+                <View style={styles.text}>
+                  <Text>
+                    Gross amount of payment card/third party network
+                    transactions
+                  </Text>
+                </View>
+              </View>
               <View style={styles.divContainer}>
                 <Text style={styles.dolarText}>$</Text>
                 <Text style={styles.inputText}>test</Text>
