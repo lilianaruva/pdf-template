@@ -5,18 +5,16 @@
 }
 
 .pdfPage {
-    margin-top: 26.834645669px;
-    margin-bottom: 18.519685039px;
-    margin-left: 58.582677165px;
-    margin-right: 40.062992126px;
+    padding-top: 26.834645669px;
+    padding-bottom: 18.519685039px;
+    padding-left: 58.582677165px;
     width: 816px;
     height: 1056px;
-    border: 1px solid red;
-
 }
 
 /*
 .pdfPage {
+    padding-right: 40.062992126px;
     margin-top: 0.71pt;
     margin-bottom: 0.49pt;
     margin-left: 1.55pt;
