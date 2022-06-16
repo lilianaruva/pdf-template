@@ -4,1216 +4,1243 @@ const Page3 = () => {
   return (
     <>
       <p
-        class="s20"
-        style="
-        padding-top: 3pt;
-        padding-left: 157pt;
-        text-indent: 0pt;
-        text-align: left;
-      "
+        className="s20"
+        style={{
+          paddingTop: "3pt",
+          paddingLeft: "157pt",
+          textIndent: "0pt",
+          textAlign: "left",
+        }}
       >
         VOID CORRECTED
       </p>
       <table
-        style="border-collapse: collapse; margin-left: 6.4pt"
-        cellspacing="0"
+        style={{ borderCollapse: "collapse", marginLeft: "6.4pt" }}
+        cellSpacing="0"
       >
-        <tr style="height: 24pt">
+        <tr style={{ height: "24pt" }}>
           <td
-            style="
-            width: 245pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            colspan="2"
-            rowspan="5"
+            style={{
+              width: "245pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            colSpan="2"
+            rowSpan="5"
           >
             <p
-              class="s21"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              padding-right: 4pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                paddingRight: "4pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               FILER’S name, street address, city or town, state or province,
               country, ZIP or foreign postal code, and telephone no.
             </p>
           </td>
           <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s21"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               FILER’S TIN
             </p>
           </td>
           <td
-            style="
-            width: 72pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            rowspan="3"
+            style={{
+              width: "72pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            rowSpan="3"
           >
             <p
-              class="s21"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               OMB No. 1545-2205
             </p>
-            <p style="text-indent: 0pt; text-align: left">
+            <p style={{ textIndent: "0pt", textAlign: "left" }}>
               <br />
             </p>
             <p
-              class="s21"
-              style="padding-left: 3pt; text-indent: 0pt; text-align: left"
+              className="s21"
+              style={{
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              Form <span class="s22"> 1099-K</span>
+              Form <span className="s22"> 1099-K</span>
             </p>
             <p
-              class="s21"
-              style="
-              padding-top: 8pt;
-              padding-left: 5pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "8pt",
+                paddingLeft: "5pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               (Rev. January 2022)
             </p>
           </td>
           <td
-            style="
-            width: 108pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-          "
-            rowspan="4"
+            style={{
+              width: "108pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+            }}
+            rowSpan="4"
           >
-            <p style="text-indent: 0pt; text-align: left">
+            <p style={{ textIndent: "0pt", textAlign: "left" }}>
               <br />
             </p>
-            <p class="s23" style="text-indent: 0pt; text-align: right">
+            <p
+              className="s23"
+              style={{ textIndent: "0pt", textAlign: "right" }}
+            >
               Payment Card and
             </p>
             <p
-              class="s23"
-              style="padding-left: 36pt; text-indent: 11pt; text-align: right"
+              className="s23"
+              style={{
+                paddingLeft: "36pt",
+                textIndent: "11pt",
+                textAlign: "right",
+              }}
             >
               Third Party Network Transactions
             </p>
           </td>
         </tr>
-        <tr style="height: 24pt">
+        <tr style={{ height: "24pt" }}>
           <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s21"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               PAYEE’S TIN
             </p>
           </td>
         </tr>
-        <tr style="height: 12pt">
+        <tr style={{ height: "12pt" }}>
           <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            rowspan="2"
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            rowSpan="2"
           >
             <p
-              class="s24"
-              style="
-              padding-top: 3pt;
-              padding-left: 14pt;
-              text-indent: -10pt;
-              line-height: 87%;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "3pt",
+                paddingLeft: "14pt",
+                textIndent: "-10pt",
+                lineHeight: "87%",
+                textAlign: "left",
+              }}
             >
               1a
-              <span class="s21">
+              <span className="s21">
                 Gross amount of payment card/third party network transactions
               </span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
         </tr>
-        <tr style="height: 24pt">
+        <tr style={{ height: "24pt" }}>
           <td
-            style="
-            width: 72pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "72pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s21"
-              style="
-              padding-top: 2pt;
-              padding-left: 8pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "8pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               For calendar year
             </p>
             <p
-              class="s26"
-              style="
-              padding-top: 1pt;
-              padding-left: 24pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s26"
+              style={{
+                paddingTop: "1pt",
+                paddingLeft: "24pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              20 <u> &nbsp; </u>
+              20 <u> &nbsp, </u>
             </p>
           </td>
         </tr>
-        <tr style="height: 18pt">
+        <tr style={{ height: " 18pt" }}>
           <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            rowspan="2"
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            rowSpan="2"
           >
             <p
-              class="s24"
-              style="
-              padding-top: 3pt;
-              padding-left: 14pt;
-              text-indent: -10pt;
-              line-height: 87%;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "3pt",
+                paddingLeft: "14pt",
+                textIndent: "-10pt",
+                lineHeight: "87%",
+                textAlign: "left",
+              }}
             >
-              1b <span class="s21"> Card Not Present transactions</span>
+              1b <span className="s21"> Card Not Present transactions</span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-top: 1pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingTop: "1pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
           <td
-            style="
-            width: 100pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            rowspan="2"
+            style={{
+              width: "100pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            rowSpan="2"
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              2 <span class="s21"> Merchant category code</span>
+              2 <span className="s21"> Merchant category code</span>
             </p>
           </td>
           <td
-            style="
-            width: 80pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-          "
-            rowspan="10"
+            style={{
+              width: "80pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+            }}
+            rowSpan="10"
           >
             <p
-              class="s28"
-              style="padding-top: 3pt; text-indent: 0pt; text-align: right"
+              className="s28"
+              style={{
+                paddingTop: "3pt",
+                textIndent: "0pt",
+                textAlign: "right",
+              }}
             >
               Copy 1
             </p>
             <p
-              class="s29"
-              style="
-              padding-top: 2pt;
-              padding-left: 27pt;
-              text-indent: -6pt;
-              text-align: right;
-            "
+              className="s29"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "27pt",
+                textIndent: "-6pt",
+                textAlign: "right",
+              }}
             >
               For State Tax Department
             </p>
           </td>
         </tr>
-        <tr style="height: 12pt">
+        <tr style={{ height: "12pt" }}>
           <td
-            style="
-            width: 122pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            rowspan="2"
+            style={{
+              width: "122pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            rowSpan="2"
           >
             <p
-              class="s21"
-              style="
-              padding-top: 1pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "1pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               Check to indicate if FILER is a (an):
             </p>
             <p
-              class="s21"
-              style="
-              padding-top: 6pt;
-              padding-left: 7pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "6pt",
+                paddingLeft: "7pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               Payment settlement entity (PSE)
             </p>
             <p
-              class="s21"
-              style="
-              padding-top: 2pt;
-              padding-left: 7pt;
-              text-indent: 0pt;
-              line-height: 7pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "7pt",
+                textIndent: "0pt",
+                lineHeight: "7pt",
+                textAlign: "left",
+              }}
             >
               Electronic Payment Facilitator (EPF)/Other third party
             </p>
           </td>
           <td
-            style="
-            width: 123pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            rowspan="2"
+            style={{
+              width: "123pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            rowSpan="2"
           >
             <p
-              class="s21"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 81%;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "81%",
+                textAlign: "left",
+              }}
             >
               Check to indicate transactions reported are:
             </p>
             <p
-              class="s21"
-              style="padding-left: 7pt; text-indent: 0pt; text-align: left"
+              className="s21"
+              style={{
+                paddingLeft: "7pt",
+                textIndent: "0pt",
+                textAlign: " left",
+              }}
             >
               Payment card
             </p>
-            <p style="text-indent: 0pt; text-align: left">
+            <p style={{ textIndent: "0pt", textAlign: "left" }}>
               <br />
             </p>
             <p
-              class="s21"
-              style="
-              padding-left: 7pt;
-              text-indent: 0pt;
-              line-height: 7pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingLeft: "7pt",
+                textIndent: "0pt",
+                lineHeight: "7pt",
+                textAlign: "left",
+              }}
             >
               Third party network
             </p>
           </td>
         </tr>
-        <tr style="height: 30pt">
+        <tr style={{ height: "30pt" }}>
           <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 3pt;
-              padding-left: 14pt;
-              text-indent: -10pt;
-              line-height: 87%;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "3pt",
+                paddingLeft: "14pt",
+                textIndent: "-10pt",
+                lineHeight: "87%",
+                textAlign: "left",
+              }}
             >
-              3 <span class="s21"> Number of payment transactions</span>
+              3 <span className="s21"> Number of payment transactions</span>
             </p>
           </td>
           <td
-            style="
-            width: 100pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "100pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 3pt;
-              padding-left: 14pt;
-              padding-right: 5pt;
-              text-indent: -10pt;
-              line-height: 87%;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "3pt",
+                paddingLeft: "14pt",
+                paddingRight: "5pt",
+                textIndent: "-10pt",
+                lineHeight: "87%",
+                textAlign: "left",
+              }}
             >
-              4 <span class="s21"> Federal income tax withheld</span>
+              4 <span className="s21"> Federal income tax withheld</span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-top: 1pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingTop: "1pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
         </tr>
-        <tr style="height: 24pt">
+        <tr style={{ height: "24pt" }}>
           <td
-            style="
-            width: 245pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            colspan="2"
-            rowspan="5"
+            style={{
+              width: "245pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            colSpan="2"
+            rowSpan="5"
           >
             <p
-              class="s21"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               PAYEE’S name
             </p>
-            <p style="text-indent: 0pt; text-align: left">
+            <p style={{ textIndent: "0pt", textAlign: "left" }}>
               <br />
             </p>
             <p
-              class="s21"
-              style="padding-left: 3pt; text-indent: 0pt; text-align: left"
+              className="s21"
+              style={{
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               Street address (including apt. no.)
             </p>
-            <p style="text-indent: 0pt; text-align: left">
+            <p style={{ textIndent: "0pt", textAlign: "left" }}>
               <br />
             </p>
             <p
-              class="s21"
-              style="padding-left: 3pt; text-indent: 0pt; text-align: left"
+              className="s21"
+              style={{
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               City or town, state or province, country, and ZIP or foreign
               postal code
             </p>
           </td>
           <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              5a <span class="s21"> January</span>
+              5a <span className="s21"> January</span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
           <td
-            style="
-            width: 100pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "100pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              5b <span class="s21"> February</span>
+              5b <span className="s21"> February</span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
-            >
-              $
-            </p>
-          </td>
-        </tr>
-        <tr style="height: 24pt">
-          <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-          >
-            <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
-            >
-              5c <span class="s21"> March</span>
-            </p>
-            <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
-            >
-              $
-            </p>
-          </td>
-          <td
-            style="
-            width: 100pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-          >
-            <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
-            >
-              5d <span class="s21"> April</span>
-            </p>
-            <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
         </tr>
-        <tr style="height: 24pt">
+        <tr style={{ height: "24pt" }}>
           <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              5e <span class="s21"> May</span>
+              5c <span className="s21"> March</span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
           <td
-            style="
-            width: 100pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "100pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              5f <span class="s21"> June</span>
+              5d <span className="s21"> April</span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
-            >
-              $
-            </p>
-          </td>
-        </tr>
-        <tr style="height: 24pt">
-          <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-          >
-            <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
-            >
-              5g <span class="s21"> July</span>
-            </p>
-            <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
-            >
-              $
-            </p>
-          </td>
-          <td
-            style="
-            width: 100pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-          >
-            <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
-            >
-              5h <span class="s21"> August</span>
-            </p>
-            <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
         </tr>
-        <tr style="height: 12pt">
+        <tr style={{ height: "24pt" }}>
           <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            rowspan="2"
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              5i <span class="s21"> September</span>
+              5e <span className="s21"> May</span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
           <td
-            style="
-            width: 100pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            rowspan="2"
+            style={{
+              width: "100pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              5j <span class="s21"> October</span>
+              5f <span className="s21"> June</span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
         </tr>
-        <tr style="height: 12pt">
+        <tr style={{ height: "24pt" }}>
           <td
-            style="
-            width: 245pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            colspan="2"
-            rowspan="2"
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s21"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
+            >
+              5g <span className="s21"> July</span>
+            </p>
+            <p
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
+            >
+              $
+            </p>
+          </td>
+          <td
+            style={{
+              width: "100pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+          >
+            <p
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
+            >
+              5h <span className="s21"> August</span>
+            </p>
+            <p
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
+            >
+              $
+            </p>
+          </td>
+        </tr>
+        <tr style={{ height: "12pt" }}>
+          <td
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            rowSpan="2"
+          >
+            <p
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
+            >
+              5i <span className="s21"> September</span>
+            </p>
+            <p
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
+            >
+              $
+            </p>
+          </td>
+          <td
+            style={{
+              width: "100pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            rowSpan="2"
+          >
+            <p
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
+            >
+              5j <span className="s21"> October</span>
+            </p>
+            <p
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
+            >
+              $
+            </p>
+          </td>
+        </tr>
+        <tr style={{ height: "12pt" }}>
+          <td
+            style={{
+              width: " 245pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            colSpan="2"
+            rowSpan="2"
+          >
+            <p
+              className="s21"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               PSE’S name and telephone number
             </p>
           </td>
         </tr>
-        <tr style="height: 24pt">
+        <tr style={{ height: "24pt" }}>
           <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              5k <span class="s21"> November</span>
+              5k <span className="s21"> November</span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
           <td
-            style="
-            width: 100pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "100pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              5l <span class="s21"> December</span>
+              5l <span className="s21"> December</span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
         </tr>
-        <tr style="height: 24pt">
+        <tr style={{ height: "24pt" }}>
           <td
-            style="
-            width: 245pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
-            colspan="2"
-            rowspan="2"
+            style={{
+              width: "245pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
+            colSpan="2"
+            rowSpan="2"
           >
             <p
-              class="s21"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s21"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
               Account number (see instructions)
             </p>
           </td>
           <td
-            style="
-            width: 101pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: dashed;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "101pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "dashed",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              6 <span class="s21"> State</span>
+              6 <span className="s21"> State</span>
             </p>
           </td>
           <td
-            style="
-            width: 100pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: dashed;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "100pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "dashed",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              7 <span class="s21"> State identification no.</span>
+              7 <span className="s21"> State identification no.</span>
             </p>
           </td>
           <td
-            style="
-            width: 80pt;
-            border-top-style: solid;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: dashed;
-            border-bottom-width: 1pt;
-          "
+            style={{
+              width: "80pt",
+              borderTopStyle: "solid",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "dashed",
+              borderBottomWidth: "1pt",
+            }}
           >
             <p
-              class="s24"
-              style="
-              padding-top: 2pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              text-align: left;
-            "
+              className="s24"
+              style={{
+                paddingTop: "2pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                textAlign: "left",
+              }}
             >
-              8 <span class="s21"> State income tax withheld</span>
+              8 <span className="s21"> State income tax withheld</span>
             </p>
             <p
-              class="s25"
-              style="
-              padding-top: 1pt;
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingTop: "1pt",
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
           </td>
         </tr>
-        <tr style="height: 12pt">
+        <tr style={{ height: "12pt" }}>
           <td
-            style="
-            width: 101pt;
-            border-top-style: dashed;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "101pt",
+              borderTopStyle: "dashed",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
-            <p style="text-indent: 0pt; text-align: left">
+            <p style={{ textIndent: "0pt", textAlign: "left" }}>
               <br />
             </p>
           </td>
           <td
-            style="
-            width: 100pt;
-            border-top-style: dashed;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-            border-right-style: solid;
-            border-right-width: 1pt;
-          "
+            style={{
+              width: "100pt",
+              borderTopStyle: "dashed",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+              borderRightStyle: "solid",
+              borderRightWidth: "1pt",
+            }}
           >
-            <p style="text-indent: 0pt; text-align: left">
+            <p style={{ textIndent: "0pt", textAlign: "left" }}>
               <br />
             </p>
           </td>
           <td
-            style="
-            width: 80pt;
-            border-top-style: dashed;
-            border-top-width: 1pt;
-            border-left-style: solid;
-            border-left-width: 1pt;
-            border-bottom-style: solid;
-            border-bottom-width: 1pt;
-          "
+            style={{
+              width: "80pt",
+              borderTopStyle: "dashed",
+              borderTopWidth: "1pt",
+              borderLeftStyle: "solid",
+              borderLeftWidth: "1pt",
+              borderBottomStyle: "solid",
+              borderBottomWidth: "1pt",
+            }}
           >
             <p
-              class="s25"
-              style="
-              padding-left: 3pt;
-              text-indent: 0pt;
-              line-height: 10pt;
-              text-align: left;
-            "
+              className="s25"
+              style={{
+                paddingLeft: "3pt",
+                textIndent: "0pt",
+                lineHeight: "10pt",
+                textAlign: "left",
+              }}
             >
               $
             </p>
@@ -1221,26 +1248,26 @@ const Page3 = () => {
         </tr>
       </table>
       <p
-        class="s30"
-        style="
-        padding-left: 6pt;
-        text-indent: 0pt;
-        line-height: 12pt;
-        text-align: left;
-      "
+        className="s30"
+        style={{
+          paddingLeft: "6pt",
+          textIndent: "0pt",
+          lineHeight: "12pt",
+          textAlign: "left",
+        }}
       >
-        Form <span class="s31"> 1099-K </span>
+        Form <span className="s31"> 1099-K </span>
         <a
           href="http://www.irs.gov/Form1099K"
-          style="
-          color: black;
-          font-family: Arial, sans-serif;
-          font-style: normal;
-          font-weight: normal;
-          text-decoration: none;
-          font-size: 7pt;
-          vertical-align: 1pt;
-        "
+          style={{
+            color: "black",
+            fontFamily: "Arial, sans-serif",
+            fontStyle: "normal",
+            fontWeight: "normal",
+            textDecoration: "none",
+            fontSize: "7pt",
+            verticalAlign: "1pt",
+          }}
           target="_blank"
         >
           (Rev. 1-2022)
@@ -1250,13 +1277,13 @@ const Page3 = () => {
         </a>
       </p>
       <p
-        class="s32"
-        style="
-        padding-top: 3pt;
-        padding-left: 6pt;
-        text-indent: 0pt;
-        text-align: left;
-      "
+        className="s32"
+        style={{
+          paddingTop: "3pt",
+          paddingLeft: "6pt",
+          textIndent: "0pt",
+          textAlign: "left",
+        }}
       >
         Department of the Treasury - Internal Revenue Service
       </p>
