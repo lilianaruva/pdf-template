@@ -20,6 +20,16 @@
     width: 770px;
 }
 
+table {
+    border: none;
+}
+
+td,
+tr,
+table {
+   
+}
+
 /*
 .pdfPage {
     padding-right: 40.062992126px;
