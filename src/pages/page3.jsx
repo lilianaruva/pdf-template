@@ -1,7 +1,6 @@
 import React from "react";
 
 const Page3 = ({ data }) => {
-  const october = "200";
   return (
     <>
       <p
