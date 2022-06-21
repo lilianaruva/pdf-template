@@ -1,6 +1,7 @@
 import React from "react";
 
-const Page3 = () => {
+const Page3 = ({ data }) => {
+  const october = "200";
   return (
     <>
       <p
@@ -48,6 +49,7 @@ const Page3 = () => {
               FILER’S name, street address, city or town, state or province,
               country, ZIP or foreign postal code, and telephone no.
             </p>
+            <p className="fill">{data.filename}</p>
           </td>
           <td
             style={{
@@ -74,6 +76,7 @@ const Page3 = () => {
             >
               FILER’S TIN
             </p>
+            <p className="fill">{data.filersTin}</p>
           </td>
           <td
             style={{
@@ -183,6 +186,7 @@ const Page3 = () => {
             >
               PAYEE’S TIN
             </p>
+            <p className="fill">{data.payeesTin}</p>
           </td>
         </tr>
         <tr style={{ height: "12pt" }}>
@@ -216,17 +220,20 @@ const Page3 = () => {
                 Gross amount of payment card/third party network transactions
               </span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p
+                className="s25"
+                style={{
+                  paddingLeft: "3pt",
+                  textIndent: "0pt",
+                  lineHeight: "10pt",
+                  textAlign: "left",
+                }}
+              >
+                $
+              </p>
+              <p className="fillNum">{data.faGrooss}</p>
+            </div>
           </td>
         </tr>
         <tr style={{ height: "24pt" }}>
@@ -296,18 +303,20 @@ const Page3 = () => {
             >
               1b <span className="s21"> Card Not Present transactions</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "1pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p
+                className="s25"
+                style={{
+                  paddingLeft: "3pt",
+                  textIndent: "0pt",
+                  lineHeight: "10pt",
+                  textAlign: "left",
+                }}
+              >
+                $
+              </p>
+              <p className="fillNum">{data.fbCard}</p>
+            </div>
           </td>
           <td
             style={{
@@ -626,18 +635,10 @@ const Page3 = () => {
             >
               5a <span className="s21"> January</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.january}</p>
+            </div>
           </td>
           <td
             style={{
@@ -664,18 +665,10 @@ const Page3 = () => {
             >
               5b <span className="s21"> February</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.february}</p>
+            </div>
           </td>
         </tr>
         <tr style={{ height: "24pt" }}>
@@ -704,18 +697,10 @@ const Page3 = () => {
             >
               5c <span className="s21"> March</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.march}</p>
+            </div>
           </td>
           <td
             style={{
@@ -742,18 +727,10 @@ const Page3 = () => {
             >
               5d <span className="s21"> April</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.april}</p>
+            </div>
           </td>
         </tr>
         <tr style={{ height: "24pt" }}>
@@ -782,18 +759,10 @@ const Page3 = () => {
             >
               5e <span className="s21"> May</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.may}</p>
+            </div>
           </td>
           <td
             style={{
@@ -820,18 +789,10 @@ const Page3 = () => {
             >
               5f <span className="s21"> June</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.june}</p>
+            </div>
           </td>
         </tr>
         <tr style={{ height: "24pt" }}>
@@ -860,18 +821,10 @@ const Page3 = () => {
             >
               5g <span className="s21"> July</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.july}</p>
+            </div>
           </td>
           <td
             style={{
@@ -898,18 +851,10 @@ const Page3 = () => {
             >
               5h <span className="s21"> August</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.august}</p>
+            </div>
           </td>
         </tr>
         <tr style={{ height: "12pt" }}>
@@ -939,18 +884,10 @@ const Page3 = () => {
             >
               5i <span className="s21"> September</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.september}</p>
+            </div>
           </td>
           <td
             style={{
@@ -978,18 +915,10 @@ const Page3 = () => {
             >
               5j <span className="s21"> October</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.october}</p>
+            </div>
           </td>
         </tr>
         <tr style={{ height: "12pt" }}>
@@ -1048,18 +977,10 @@ const Page3 = () => {
             >
               5k <span className="s21"> November</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.november}</p>
+            </div>
           </td>
           <td
             style={{
@@ -1086,18 +1007,10 @@ const Page3 = () => {
             >
               5l <span className="s21"> December</span>
             </p>
-            <p
-              className="s25"
-              style={{
-                paddingTop: "2pt",
-                paddingLeft: "3pt",
-                textIndent: "0pt",
-                lineHeight: "10pt",
-                textAlign: "left",
-              }}
-            >
-              $
-            </p>
+            <div className="fill-container">
+              <p className="s25 fillText">$</p>
+              <p className="fillNum">{data.december}</p>
+            </div>
           </td>
         </tr>
         <tr style={{ height: "24pt" }}>

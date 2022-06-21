@@ -6,6 +6,7 @@ import "../pdf.css";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import { pdfjs } from "react-pdf";
+import data from "../pages/data.js";
 
 const PDFdoc = () => {
   function savePDF() {
@@ -25,7 +26,7 @@ const PDFdoc = () => {
   return (
     <>
       <div className="pdfPage" id="pdfPage">
-        <Page3 />
+        <Page3 data={data} />
       </div>
       <button id="save-button" onClick={savePDF}>
         aaaaaaaaaaaaaaaaaa

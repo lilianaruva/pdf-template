@@ -1,0 +1,31 @@
+const data = {
+  filename:
+    "Phelan Dunlap, 3046 Colony Dr, San Antonio, Texas, EE.UU. 78230, (458) 937-5833",
+  payeesName: "Maxwell Tyson",
+  payeesStreetAddress: "10134 Sandyglen",
+  payeesStreetAddressC: "San Antonio, Texas, EE. UU. 78240,",
+  psesName: "PseTest, (321) 939-4023",
+  accountNumber: "000 000 000 000",
+  filersTin: "",
+  payeesTin: "",
+  faGrooss: 18645,
+  fbCard: 20494,
+  january: 300,
+  february: 486,
+  march: 134,
+  april: 156,
+  may: 450,
+  june: 650,
+  july: 780,
+  august: 450,
+  september: 330,
+  october: 210,
+  november: 300,
+  december: 300,
+  state: 300,
+  stateNo: 300,
+  stateIncomeA: 300,
+  stateIncomeB: 300,
+};
+
+export default data;

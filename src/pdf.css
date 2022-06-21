@@ -24,10 +24,39 @@ table {
     border: none;
 }
 
-td,
-tr,
-table {
-   
+.formTable {
+    margin: 0;
+    padding: 0;
+}
+
+.fill {
+    padding-top: 3pt;
+    padding-left: 3pt;
+    padding-right: 4pt;
+    text-indent: 0pt;
+    text-align: left;
+    color: rgb(39, 39, 191);
+    font-size: 12px;
+}
+
+.fillNum {
+    padding-left: 1pt;
+    padding-top: 1pt;
+    text-align: left;
+    color: rgb(39, 39, 191);
+    font-size: 12px;
+}
+
+.fillText {
+    padding-top: 2pt;
+    padding-left: 3pt;
+    text-indent: 0pt;
+    line-height: 10pt;
+    text-align: left;
+}
+
+.fill-container {
+    display: flex;
 }
 
 /*
